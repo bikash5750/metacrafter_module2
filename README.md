@@ -1,22 +1,20 @@
-1.Metacrafter Token Smart Contract
+Metacrafter ETH Beginner Module Assessment
 
-This smart contract implements a simple token system on the Ethereum blockchain, allowing for the minting and burning of tokens. The token is named "Metacrafter" with the symbol "MII." The contract maintains a record of the total supply of tokens in circulation and the balances of individual token holders through a mapping.
 
-2.Features
-Public Variables:
+1.Welcome to the Metacrafter ETH Beginner Module assessment! This assessment will guide you through the creation of a simple ERC-20-like token contract using Solidity.
 
-name: Stores the name of the token.
-symbol: Stores the abbreviation (symbol) of the token.
-totalSupply: Stores the total supply of the token.
+2.Table of Contents
+Introduction
+Introduction
+In this assessment, you will create a basic smart contract for a token called "Metacrafter". The token will have a name, abbreviation, and total supply. You will implement minting and burning functionalities to manage the token supply.
 
-3.Mapping:
-balances: Maps addresses to their respective balances.
+3.Public variables to store:
 
-4.Mint Function:
-Increases the total supply of tokens.
-Increases the balance of the specified address.
+Token Name
+Token Abbreviation
+Total Supply
+A mapping to associate addresses with their token balances.
 
-5.Burn Function:
-Decreases the total supply of tokens.
-Decreases the balance of the specified address.
-Ensures the address has a sufficient balance before burning tokens.
+A mint function to create new tokens and assign them to a specific address.
+
+A burn function to destroy tokens from a specific address, ensuring the address has enough tokens to burn.
